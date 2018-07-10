@@ -33,7 +33,7 @@ dispatch triggerAlert from anywhere in the app to trigger an alert for a specifi
 
 errorlevel: Acceptable inputs are "info", "warning", "error", "success". Anything else will default to "info".
 
-context: Alert will be displayed in every <CustomAlert> component that matches this context.
+context: Alert will be displayed in every `<CustomAlert>` component that matches this context.
 
 message: Provide an errormessage.
 
@@ -44,6 +44,6 @@ timeout: Set timeout for alert in ms. Defaults to 2000ms.
 
 App:
 
-Error Generator to test the <CustomAlert> component and create different kinds of errors.
+Error Generator to test the `<CustomAlert>` component and create different kinds of errors.
 
 Global errors are displayed above the Error Generator, errors with context "errorgenerator" are displayed inside the Error Generator.
